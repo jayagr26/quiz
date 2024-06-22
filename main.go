@@ -21,8 +21,8 @@ func main() {
 	records := readContent(f)
 
 	fmt.Println("Ready")
-	fmt.Println("Enter any key to start...")
-	fmt.Scanf("%c")
+	fmt.Println("Press Enter to start...")
+	fmt.Scanf("\n")
 
 	var correct, total int
 	total = len(records)
